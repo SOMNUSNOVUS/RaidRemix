@@ -1,0 +1,9 @@
+<table name="RaidRemix" author="SpeciesNova" color="Color('FFFFFF')" description="---" cannot_be_disabled="false" early_init="false">
+
+    <hooks>
+		<hook source_file="lib/tweak_data/guitweakdata"			file="hooks/guitweakdata.lua"/>
+    </hooks>
+	
+	<AddFiles directory="assets">
+	</AddFiles>
+</table>
