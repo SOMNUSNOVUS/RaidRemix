@@ -1,7 +1,9 @@
 <table name="RaidRemix" author="SpeciesNova" color="Color('FFFFFF')" description="---" cannot_be_disabled="false" early_init="false">
 
     <hooks>
-		<hook source_file="lib/tweak_data/guitweakdata"			file="hooks/guitweakdata.lua"/>
+		<hook file="hooks/tweak_data/guitweakdata.lua" source_file="lib/tweak_data/guitweakdata"/>
+		<hook file="hooks/managers/hud/hudchat.lua" source_file="lib/managers/hud/hudchat"/>
+		<hook file="hooks/managers/hud/hudchatmessage.lua" source_file="lib/managers/hud/hudchatmessage"/>
     </hooks>
 	
 	<AddFiles directory="assets">
