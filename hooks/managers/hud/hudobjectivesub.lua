@@ -1,0 +1,4 @@
+HUDObjectiveSub.OBJECTIVE_TEXT_FONT = tweak_data.gui.fonts.din_compressed_outlined_32
+HUDObjectiveSub.OBJECTIVE_TEXT_FONT_SIZE = tweak_data.gui.font_sizes.size_32
+HUDObjectiveSub.AMOUNT_TEXT_FONT = tweak_data.gui.fonts.din_compressed_outlined_26
+HUDObjectiveSub.AMOUNT_TEXT_FONT_SIZE = tweak_data.gui.font_sizes.small

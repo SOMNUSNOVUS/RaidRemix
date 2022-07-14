@@ -20,21 +20,29 @@ Hooks:PostHook(GuiTweakData, "_setup_hud_colors", "_setup_hud_colors__rex", func
 	self.colors.gold_orange = Color("c68e38")
 	self.colors.intel_newspapers_text = Color("d6c8b2")
     self.colors.player_health_colors[1] = {
-        start_percentage = 0,
-        color = Color("c20015")
+        start_percentage = 0.1,
+        color = Color("b8392e")
     }
-    self.colors.player_health_colors[2] = {
+	 self.colors.player_health_colors[2] = {
         start_percentage = 0.25,
-        color = Color("3EC153")  --fe0000
+        color = Color("efad29")
+    }
+    self.colors.player_health_colors[3] = {
+        start_percentage = 0.5,
+        color = Color("64bc4c")
     }
 	
 	self.colors.player_stamina_colors[1] = {
         start_percentage = 0,
-        color = self.colors.progress_red
+        color = Color("bc8b4c")
     }
-    self.colors.player_stamina_colors[2] = {
+	 self.colors.player_stamina_colors[2] = {
         start_percentage = 0.25,
-        color = Color("2C7DB7")
+        color = Color("a9bc4c")
+    }
+    self.colors.player_stamina_colors[3] = {
+        start_percentage = 0.5,
+        color = Color("4cafbc")
     }
 	
 	self.colors.ammo_clip_colors[1] = {

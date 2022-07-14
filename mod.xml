@@ -3,8 +3,13 @@
     <hooks>
 		<hook file="hooks/tweak_data/guitweakdata.lua" source_file="lib/tweak_data/guitweakdata"/>
 		<hook file="hooks/managers/hud/hudchat.lua" source_file="lib/managers/hud/hudchat"/>
-		<hook file="hooks/managers/hud/hudobjective.lua" source_file="lib/managers/hud/hudobjective"/>
 		<hook file="hooks/managers/hud/hudchatmessage.lua" source_file="lib/managers/hud/hudchatmessage"/>
+
+		<hook file="hooks/managers/hud/hudobjectives.lua" source_file="lib/managers/hud/hudobjectives"/>
+		<hook file="hooks/managers/hud/hudobjectivemain.lua" source_file="lib/managers/hud/hudobjectivemain"/>
+		<hook file="hooks/managers/hud/hudobjectivesub.lua" source_file="lib/managers/hud/hudobjectivesub"/>
+		<hook file="hooks/managers/hud/hudobjectivedescription.lua" source_file="lib/managers/hud/hudobjectivedescription"/>
+		
 		<hook file="hooks/managers/hud/hudteammateplayer.lua" source_file="lib/managers/hud/hudteammateplayer"/>
 		<hook file="hooks/managers/hud/hudteammateai.lua" source_file="lib/managers/hud/hudteammateai"/>
 		<hook file="hooks/managers/hud/hudteammatepeer.lua" source_file="lib/managers/hud/hudteammatepeer"/>
