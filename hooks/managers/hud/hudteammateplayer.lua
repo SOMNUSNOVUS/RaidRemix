@@ -1,0 +1,2 @@
+HUDTeammatePlayer.PLAYER_LEVEL_FONT = "din_compressed_outlined_22"
+HUDTeammatePlayer.PLAYER_LEVEL_FONT_SIZE = 22
