@@ -1,18 +1,59 @@
 <table name="RaidRemix" author="SpeciesNova" color="Color('FFFFFF')" description="---" cannot_be_disabled="false" early_init="false">
 
-    <hooks>
-		<hook file="hooks/tweak_data/guitweakdata.lua" source_file="lib/tweak_data/guitweakdata"/>
-		<hook file="hooks/managers/hud/hudchat.lua" source_file="lib/managers/hud/hudchat"/>
-		<hook file="hooks/managers/hud/hudchatmessage.lua" source_file="lib/managers/hud/hudchatmessage"/>
-
-		<hook file="hooks/managers/hud/hudobjectives.lua" source_file="lib/managers/hud/hudobjectives"/>
-		<hook file="hooks/managers/hud/hudobjectivemain.lua" source_file="lib/managers/hud/hudobjectivemain"/>
-		<hook file="hooks/managers/hud/hudobjectivesub.lua" source_file="lib/managers/hud/hudobjectivesub"/>
-		<hook file="hooks/managers/hud/hudobjectivedescription.lua" source_file="lib/managers/hud/hudobjectivedescription"/>
+    <hooks directory="hooks">
+		<hook file="networkmatchmakingsteam.lua" source_file="lib/network/matchmaking/networkmatchmakingsteam"/>
 		
-		<hook file="hooks/managers/hud/hudteammateplayer.lua" source_file="lib/managers/hud/hudteammateplayer"/>
-		<hook file="hooks/managers/hud/hudteammateai.lua" source_file="lib/managers/hud/hudteammateai"/>
-		<hook file="hooks/managers/hud/hudteammatepeer.lua" source_file="lib/managers/hud/hudteammatepeer"/>
+		<hook file="tweak_data/charactertweakdata.lua" source_file="lib/tweak_data/charactertweakdata"/>
+		<hook file="tweak_data/dramatweakdata.lua" source_file="lib/tweak_data/dramatweakdata"/>
+		<hook file="tweak_data/groupaitweakdata.lua" source_file="lib/tweak_data/groupaitweakdata"/>
+		<hook file="tweak_data/groupairaidtweakdata.lua" source_file="lib/tweak_data/group_ai/groupairaidtweakdata"/>
+		
+		<hook file="managers/raidjobmanager.lua" source_file="lib/managers/raidjobmanager"/>
+		<hook file="managers/enemymanager.lua" source_file="lib/managers/enemymanager"/>
+		<hook file="managers/navigationmanager.lua" source_file="lib/managers/navigationmanager"/>
+		<hook file="managers/groupaistatebase.lua" source_file="lib/managers/group_ai_states/groupaistatebase"/>
+		<hook file="managers/groupaistatebesiege.lua" source_file="lib/managers/group_ai_states/groupaistatebesiege"/>
+
+		<hook file="units/props/managespawnedunits.lua" source_file="lib/units/props/managespawnedunits"/>
+		<hook file="units/props/flamertank.lua" source_file="lib/units/props/flamertank"/>
+		
+		<hook file="units/actions/copactionshoot.lua" source_file="lib/units/enemies/cop/actions/upper_body/copactionshoot"/>
+		
+		<hook file="units/extensions/copdamage.lua" source_file="lib/units/enemies/cop/copdamage"/>
+		<hook file="units/extensions/copbrain.lua" source_file="lib/units/enemies/cop/copbrain"/>
+		<hook file="units/extensions/huskcopbrain.lua" source_file="lib/units/enemies/cop/huskcopbrain"/>
+		<hook file="units/extensions/flamerbrain.lua" source_file="lib/units/enemies/cop/flamerbrain"/>
+		<hook file="units/extensions/copmovement.lua" source_file="lib/units/enemies/cop/copmovement"/>
+		
+		<hook file="units/logics/cop/coplogicattack.lua" source_file="lib/units/enemies/cop/logics/coplogicattack"/>
+		<hook file="units/logics/cop/coplogictravel.lua" source_file="lib/units/enemies/cop/logics/coplogictravel"/>
+		<hook file="units/logics/cop/coplogicidle.lua" source_file="lib/units/enemies/cop/logics/coplogicidle"/>
+		<hook file="units/logics/cop/coplogicbase.lua" source_file="lib/units/enemies/cop/logics/coplogicbase"/>
+		<hook file="units/logics/cop/coplogicsniper.lua" source_file="lib/units/enemies/cop/logics/coplogicsniper"/>
+		
+		<hook file="units/logics/flamer/flamerlogicattack.lua" source_file="lib/units/enemies/flamer/logics/flamerlogicattack"/>
+		
+		<hook file="units/logics/player_team/teamailogicassault.lua" source_file="lib/units/player_team/logics/teamailogicassault"/>
+		<hook file="units/logics/player_team/teamailogictravel.lua" source_file="lib/units/player_team/logics/teamailogictravel"/>
+		<hook file="units/logics/player_team/teamailogicidle.lua" source_file="lib/units/player_team/logics/teamailogicidle"/>
+		<hook file="units/logics/player_team/teamailogicbase.lua" source_file="lib/units/player_team/logics/teamailogicbase"/>
+		
+		<hook file="units/weapons/npcraycastweaponbase.lua" source_file="lib/units/weapons/npcraycastweaponbase"/>
+		
+		<!--hud stuff goes here-->
+		<hook file="tweak_data/guitweakdata.lua" source_file="lib/tweak_data/guitweakdata"/>	
+		
+		<hook file="managers/hud/hudchat.lua" source_file="lib/managers/hud/hudchat"/>
+		<hook file="managers/hud/hudchatmessage.lua" source_file="lib/managers/hud/hudchatmessage"/>
+
+		<hook file="managers/hud/hudobjectives.lua" source_file="lib/managers/hud/hudobjectives"/>
+		<hook file="managers/hud/hudobjectivemain.lua" source_file="lib/managers/hud/hudobjectivemain"/>
+		<hook file="managers/hud/hudobjectivesub.lua" source_file="lib/managers/hud/hudobjectivesub"/>
+		<hook file="managers/hud/hudobjectivedescription.lua" source_file="lib/managers/hud/hudobjectivedescription"/>
+		
+		<hook file="managers/hud/hudteammateplayer.lua" source_file="lib/managers/hud/hudteammateplayer"/>
+		<hook file="managers/hud/hudteammateai.lua" source_file="lib/managers/hud/hudteammateai"/>
+		<hook file="managers/hud/hudteammatepeer.lua" source_file="lib/managers/hud/hudteammatepeer"/>
     </hooks>
 	
 	<AddFiles directory="assets">
