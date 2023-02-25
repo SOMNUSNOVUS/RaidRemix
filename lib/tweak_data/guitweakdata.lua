@@ -3,7 +3,7 @@ Hooks:PostHook(GuiTweakData, "_setup_hud_colors", "_setup_hud_colors__rex", func
 	-- fe0000 OR c20015, one is likely the old HP color (no info on low HP from E3)
 	-- f38212 is the current color to near-empty ammo (not accurate yet)
 	
-	self.colors.ammo_background_outline = Color("0c0c0d")
+	self.colors.ammo_background_outline = Color("000000") --0c0c0d
 	self.colors.ammo_text = Color("222222")
 	self.colors.warcry_inactive = Color("ECECEC")
 	self.colors.warcry_active = Color("efad29")
