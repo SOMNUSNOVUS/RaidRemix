@@ -53,6 +53,10 @@
 		{
 			"hook_id": "core/lib/managers/subtitle/coresubtitlepresenter",
 			"script_path": "core/lib/managers/subtitle/coresubtitlepresenter.lua"
+		},
+		{
+			"hook_id": "lib/managers/hud/hudinteraction",
+			"script_path": "lib/managers/hud/hudinteraction.lua"
 		}
 	]
 }
