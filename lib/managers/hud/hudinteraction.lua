@@ -54,8 +54,8 @@ function HUDInteraction:init(hud, child_name)
 		font = tweak_data.gui.fonts.din_compressed_outlined_32
 	})
 
-	interact_text:set_center_y(self._hud_panel:h() / 2 + 100)
-	invalid_text:set_center_y(self._hud_panel:h() / 2 + 100)
+	interact_text:set_center_y(self._hud_panel:h() / 2 + 125)
+	invalid_text:set_center_y(self._hud_panel:h() / 2 + 125)
 
 	self._panels_being_animated = {}
 end
