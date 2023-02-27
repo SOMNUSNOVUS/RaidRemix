@@ -2,8 +2,8 @@ HUDInteraction = HUDInteraction or class()
 
 function HUDInteraction:init(hud, child_name)
 	self._hud_panel = hud.panel
-	self._progress_bar_width = 288 * 1.95
-	self._progress_bar_height = 8 * 1.95
+	self._progress_bar_width = 288 * 1.9
+	self._progress_bar_height = 8 * 1.9
 	self._progress_bar_x = self._hud_panel:w() / 2 - self._progress_bar_width / 2
 	self._progress_bar_y = self._hud_panel:h() / 2 + 191
 	self._progress_bar_bg = self._hud_panel:bitmap({
